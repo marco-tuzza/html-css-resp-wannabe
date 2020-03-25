@@ -68,44 +68,63 @@ img{
 
 @media screen and (max-width: 480px) {
 
+    h1 {
+        font-size: 80px;
+        padding-top: 30px;
+    }
+
+    h3 {
+        font-size: 60px;
+    }
+
     #lezioni .row .left {
-        padding-top: 40px;
+        padding-top: 50px;
         margin: auto;
         float: none;
         display: block;
         width: 80%;
+        font-size: 50px;
     }
 
     #lezioni .row .right {
-        padding-top: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         margin: auto;
         float: none;
         display: block;
         width: 80%;
+        font-size: 50px;
     }
 
     #steps .row {
-        background-color: #f9f9f9
+        color: white;
+        background-color: lightcoral;
+        font-size: 50px;
     }
 
     #steps .row .left {
-        padding-top: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         margin: auto;
         float: none;
         display: block;
         width: 80%;
+
     }
 
     #steps .row .central {
-        padding-top: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         margin: auto;
         float: none;
         display: block;
         width: 80%;
+
     }
 
     #steps .row .right {
-        padding-top: 40px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         margin: auto;
         float: none;
         display: block;
@@ -113,6 +132,19 @@ img{
     }
 
     #why .row {
-        background-color: #f9f9f9;
+        background-color: lightgreen;
+        font-size: 50px;
+        margin-top: 0px;
     }
-}
+
+    #why .row h1 {
+        margin-top: 0px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #why .row .third {
+        padding-bottom:30px;
+    }
